@@ -20,9 +20,8 @@ body{
 
 .light{
     background-color: #fff;
-    color: #000;
-}
 
+}
 
 .navbar{
     display: flex;
@@ -93,8 +92,10 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-
-
+}
+.input:hover{
+    background-color: #3d3c3c;
+    color: #fff;
 }
 .input{
     background-color: #2c2c2c;
@@ -102,7 +103,7 @@ span{
     border: none;
     padding: 10px 15px;
     margin: 20px 10px;
-    border-radius: 6px;
+    border-radius: 5px;
     cursor: pointer;
     
 }
@@ -111,13 +112,20 @@ span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1a1919;
     align-self: flex-end;
 }
 
+.light>footer>div>div>ul>li{
+    color: #161616
+}
+.dark>footer{
+    background-color: #161616;
+    color: #fff;
+}
 .footer >div > ul > li {
     list-style: none;
     margin: 10px 0;   
+    
 
 }
 
@@ -125,7 +133,7 @@ span{
     display: flex;
     align-items: center;
     font-size: 12px;
-    font-weight: 100;
+    font-weight: 500;
     gap: 10px;
     margin: 15px;
     cursor: pointer;
